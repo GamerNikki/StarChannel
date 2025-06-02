@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV Channel with Multiple Videos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Live TV Channels</h1>
+    </header>
+
+    <main>
+        <div class="container">
+            <!-- Channel List -->
+            <aside class="channels">
+                <h2>Choose a Channel</h2>
+                <ul>
+                    <li><button class="channel-btn" data-channel="1">Channel 1</button></li>
+                    <li><button class="channel-btn" data-channel="2">Channel 2</button></li>
+                    <li><button class="channel-btn" data-channel="3">Channel 3</button></li>
+                </ul>
+            </aside>
+
+            <!-- Video Player -->
+            <section class="video-player">
+                <h2 id="channel-name">Select a channel to watch</h2>
+                <div class="video-container">
+                    <video id="video-player" width="100%" controls>
+                        <source id="video-source" src="" type="video/mp4">
+                        Your browser does not support HTML5 video.
+                    </video>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Live TV Channels. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

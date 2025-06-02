@@ -1,0 +1,86 @@
+/* styles.css */
+
+/* Basic Reset and Layout */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+/* Main Container */
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+.channels {
+    width: 250px;
+    padding-right: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.channels h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.channels ul {
+    list-style: none;
+}
+
+.channels li {
+    margin: 10px 0;
+}
+
+.channel-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.channel-btn:hover {
+    background-color: #0056b3;
+}
+
+.video-player {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+video {
+    width: 100%;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
